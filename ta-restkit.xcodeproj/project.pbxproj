@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C49DA3BA438456DAB247779 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F02FCCAC2DA489D9B77D77F /* libPods.a */; };
 		ACB5FB51170B9E2400A506EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB5FB50170B9E2400A506EE /* UIKit.framework */; };
 		ACB5FB53170B9E2400A506EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB5FB52170B9E2400A506EE /* Foundation.framework */; };
 		ACB5FB55170B9E2400A506EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB5FB54170B9E2400A506EE /* CoreGraphics.framework */; };
@@ -37,20 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F02FCCAC2DA489D9B77D77F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB5FB4D170B9E2400A506EE /* ta-restkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ta-restkit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB5FB50170B9E2400A506EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ACB5FB52170B9E2400A506EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACB5FB54170B9E2400A506EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		ACB5FB56170B9E2400A506EE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		ACB5FB5A170B9E2400A506EE /* ta-restkit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ta-restkit-Info.plist"; sourceTree = "<group>"; };
+		ACB5FB5A170B9E2400A506EE /* ta-restkit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ta-restkit-Info.plist"; path = "ta-restkit/ta-restkit-Info.plist"; sourceTree = "<group>"; };
 		ACB5FB5C170B9E2400A506EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ACB5FB5E170B9E2400A506EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ACB5FB60170B9E2400A506EE /* ta-restkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ta-restkit-Prefix.pch"; sourceTree = "<group>"; };
-		ACB5FB61170B9E2400A506EE /* taAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = taAppDelegate.h; sourceTree = "<group>"; };
-		ACB5FB62170B9E2400A506EE /* taAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taAppDelegate.m; sourceTree = "<group>"; };
-		ACB5FB64170B9E2400A506EE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		ACB5FB66170B9E2400A506EE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		ACB5FB68170B9E2500A506EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ACB5FB5E170B9E2400A506EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "ta-restkit/main.m"; sourceTree = "<group>"; };
+		ACB5FB60170B9E2400A506EE /* ta-restkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ta-restkit-Prefix.pch"; path = "ta-restkit/ta-restkit-Prefix.pch"; sourceTree = "<group>"; };
+		ACB5FB61170B9E2400A506EE /* taAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = taAppDelegate.h; path = "ta-restkit/taAppDelegate.h"; sourceTree = "<group>"; };
+		ACB5FB62170B9E2400A506EE /* taAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = taAppDelegate.m; path = "ta-restkit/taAppDelegate.m"; sourceTree = "<group>"; };
+		ACB5FB64170B9E2400A506EE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "ta-restkit/Default.png"; sourceTree = "<group>"; };
+		ACB5FB66170B9E2400A506EE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "ta-restkit/Default@2x.png"; sourceTree = "<group>"; };
+		ACB5FB68170B9E2500A506EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "ta-restkit/Default-568h@2x.png"; sourceTree = "<group>"; };
 		ACB5FB6B170B9E2500A506EE /* ta_restkit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ta_restkit.xcdatamodel; sourceTree = "<group>"; };
 		ACB5FB72170B9E2500A506EE /* ta-restkitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ta-restkitTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB5FB73170B9E2500A506EE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -58,6 +60,7 @@
 		ACB5FB7E170B9E2500A506EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACB5FB80170B9E2500A506EE /* ta_restkitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ta_restkitTests.h; sourceTree = "<group>"; };
 		ACB5FB81170B9E2500A506EE /* ta_restkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ta_restkitTests.m; sourceTree = "<group>"; };
+		F90CF51A98C64DFFA24B9719 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 				ACB5FB53170B9E2400A506EE /* Foundation.framework in Frameworks */,
 				ACB5FB55170B9E2400A506EE /* CoreGraphics.framework in Frameworks */,
 				ACB5FB57170B9E2400A506EE /* CoreData.framework in Frameworks */,
+				4C49DA3BA438456DAB247779 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,10 +93,14 @@
 		ACB5FB44170B9E2400A506EE = {
 			isa = PBXGroup;
 			children = (
+				ACB5FB8E170BBB0000A506EE /* Resources */,
+				ACB5FB8D170BBAFA00A506EE /* Other Sources */,
+				ACB5FB8B170BBAE700A506EE /* Classes */,
 				ACB5FB58170B9E2400A506EE /* ta-restkit */,
 				ACB5FB7A170B9E2500A506EE /* ta-restkitTests */,
 				ACB5FB4F170B9E2400A506EE /* Frameworks */,
 				ACB5FB4E170B9E2400A506EE /* Products */,
+				F90CF51A98C64DFFA24B9719 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +121,7 @@
 				ACB5FB54170B9E2400A506EE /* CoreGraphics.framework */,
 				ACB5FB56170B9E2400A506EE /* CoreData.framework */,
 				ACB5FB73170B9E2500A506EE /* SenTestingKit.framework */,
+				7F02FCCAC2DA489D9B77D77F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,9 +129,6 @@
 		ACB5FB58170B9E2400A506EE /* ta-restkit */ = {
 			isa = PBXGroup;
 			children = (
-				ACB5FB61170B9E2400A506EE /* taAppDelegate.h */,
-				ACB5FB62170B9E2400A506EE /* taAppDelegate.m */,
-				ACB5FB6A170B9E2500A506EE /* ta_restkit.xcdatamodeld */,
 				ACB5FB59170B9E2400A506EE /* Supporting Files */,
 			);
 			path = "ta-restkit";
@@ -131,13 +137,6 @@
 		ACB5FB59170B9E2400A506EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ACB5FB5A170B9E2400A506EE /* ta-restkit-Info.plist */,
-				ACB5FB5B170B9E2400A506EE /* InfoPlist.strings */,
-				ACB5FB5E170B9E2400A506EE /* main.m */,
-				ACB5FB60170B9E2400A506EE /* ta-restkit-Prefix.pch */,
-				ACB5FB64170B9E2400A506EE /* Default.png */,
-				ACB5FB66170B9E2400A506EE /* Default@2x.png */,
-				ACB5FB68170B9E2500A506EE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,6 +160,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ACB5FB8B170BBAE700A506EE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ACB5FB61170B9E2400A506EE /* taAppDelegate.h */,
+				ACB5FB62170B9E2400A506EE /* taAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		ACB5FB8D170BBAFA00A506EE /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ACB5FB5E170B9E2400A506EE /* main.m */,
+				ACB5FB60170B9E2400A506EE /* ta-restkit-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		ACB5FB8E170BBB0000A506EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACB5FB5A170B9E2400A506EE /* ta-restkit-Info.plist */,
+				ACB5FB5B170B9E2400A506EE /* InfoPlist.strings */,
+				ACB5FB64170B9E2400A506EE /* Default.png */,
+				ACB5FB6A170B9E2500A506EE /* ta_restkit.xcdatamodeld */,
+				ACB5FB68170B9E2500A506EE /* Default-568h@2x.png */,
+				ACB5FB66170B9E2400A506EE /* Default@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,6 +201,7 @@
 				ACB5FB49170B9E2400A506EE /* Sources */,
 				ACB5FB4A170B9E2400A506EE /* Frameworks */,
 				ACB5FB4B170B9E2400A506EE /* Resources */,
+				3CA0E1F7FD5D46BCBB43F579 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +282,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3CA0E1F7FD5D46BCBB43F579 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		ACB5FB70170B9E2500A506EE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,6 +347,7 @@
 				ACB5FB5C170B9E2400A506EE /* en */,
 			);
 			name = InfoPlist.strings;
+			path = "ta-restkit";
 			sourceTree = "<group>";
 		};
 		ACB5FB7D170B9E2500A506EE /* InfoPlist.strings */ = {
@@ -375,6 +421,7 @@
 		};
 		ACB5FB86170B9E2500A506EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90CF51A98C64DFFA24B9719 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ta-restkit/ta-restkit-Prefix.pch";
@@ -386,6 +433,7 @@
 		};
 		ACB5FB87170B9E2500A506EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90CF51A98C64DFFA24B9719 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ta-restkit/ta-restkit-Prefix.pch";
@@ -448,6 +496,7 @@
 				ACB5FB87170B9E2500A506EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACB5FB88170B9E2500A506EE /* Build configuration list for PBXNativeTarget "ta-restkitTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +505,7 @@
 				ACB5FB8A170B9E2500A506EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -466,7 +516,8 @@
 				ACB5FB6B170B9E2500A506EE /* ta_restkit.xcdatamodel */,
 			);
 			currentVersion = ACB5FB6B170B9E2500A506EE /* ta_restkit.xcdatamodel */;
-			path = ta_restkit.xcdatamodeld;
+			name = ta_restkit.xcdatamodeld;
+			path = "ta-restkit/ta_restkit.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

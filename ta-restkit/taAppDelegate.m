@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Chris McCarty. All rights reserved.
 //
 
+#import <RestKit/RestKit.h>
 #import "taAppDelegate.h"
 
 @implementation taAppDelegate
@@ -19,6 +20,18 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    
+    
+    
+    
+    // set up nav controller and tableview
+    
+    
+    
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
