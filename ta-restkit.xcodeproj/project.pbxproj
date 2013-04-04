@@ -25,6 +25,7 @@
 		ACB5FB77170B9E2500A506EE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB5FB56170B9E2400A506EE /* CoreData.framework */; };
 		ACB5FB7F170B9E2500A506EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACB5FB7D170B9E2500A506EE /* InfoPlist.strings */; };
 		ACB5FB82170B9E2500A506EE /* ta_restkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB5FB81170B9E2500A506EE /* ta_restkitTests.m */; };
+		ACB5FB91170C930F00A506EE /* taListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB5FB90170C930F00A506EE /* taListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		ACB5FB7E170B9E2500A506EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACB5FB80170B9E2500A506EE /* ta_restkitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ta_restkitTests.h; sourceTree = "<group>"; };
 		ACB5FB81170B9E2500A506EE /* ta_restkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ta_restkitTests.m; sourceTree = "<group>"; };
+		ACB5FB8F170C930F00A506EE /* taListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = taListViewController.h; path = "ta-restkit/taListViewController.h"; sourceTree = "<group>"; };
+		ACB5FB90170C930F00A506EE /* taListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = taListViewController.m; path = "ta-restkit/taListViewController.m"; sourceTree = "<group>"; };
 		F90CF51A98C64DFFA24B9719 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -165,6 +168,8 @@
 			children = (
 				ACB5FB61170B9E2400A506EE /* taAppDelegate.h */,
 				ACB5FB62170B9E2400A506EE /* taAppDelegate.m */,
+				ACB5FB8F170C930F00A506EE /* taListViewController.h */,
+				ACB5FB90170C930F00A506EE /* taListViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -319,6 +324,7 @@
 				ACB5FB5F170B9E2400A506EE /* main.m in Sources */,
 				ACB5FB63170B9E2400A506EE /* taAppDelegate.m in Sources */,
 				ACB5FB6C170B9E2500A506EE /* ta_restkit.xcdatamodeld in Sources */,
+				ACB5FB91170C930F00A506EE /* taListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

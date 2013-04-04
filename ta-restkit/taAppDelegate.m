@@ -8,6 +8,7 @@
 
 #import <RestKit/RestKit.h>
 #import "taAppDelegate.h"
+#import "taListViewController.h"
 
 @implementation taAppDelegate
 
@@ -22,16 +23,33 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     
+    // BEGIN from restkit samples
+    RKLogConfigureByName("RestKit/Network*", RKLogLevelTrace);
+    RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelTrace);
+    
+    //let AFNetworking manage the activity indicator
+    [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    // END from restkit samples
+    
+    
     
     
     
     
     // set up nav controller and tableview
+    taListViewController *vc = [[taListViewController alloc] initWithNibName:nil bundle:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:vc];
     
-    
-    
-    
-    
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }
